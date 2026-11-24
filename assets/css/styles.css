@@ -334,9 +334,13 @@ h3 {
   margin-bottom: 1.5rem;
 }
 
-.about-art {
+.about-portrait {
   width: min(70%, 21.5rem);
   margin-inline: auto;
+  mask-image:
+    linear-gradient(to right, transparent, #000 12%, #000 88%, transparent),
+    linear-gradient(to bottom, transparent, #000 9%, #000 86%, transparent);
+  mask-composite: intersect;
 }
 
 /* ---------- How I Can Help ---------- */
@@ -623,7 +627,7 @@ h3 {
     align-items: center;
   }
 
-  .about-art {
+  .about-portrait {
     width: 100%;
   }
 

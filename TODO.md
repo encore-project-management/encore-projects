@@ -10,7 +10,6 @@ Search the code for `TODO:` to find each spot.
 
 | # | What | Where | Current state |
 |---|------|-------|---------------|
-| 1 | Optional: a real portrait photo of Paul for the About Me section (never a stock or generated photo of a person) | `index.html`, About Me section | Illustration shown instead |
 | 2 | Phone number, if one should be shown (Wix placeholder was 123-456-7890) | `index.html`, footer | Contact block is commented out |
 | 3 | Email address, if one should be shown (Wix placeholder was info@mysite.com) | `index.html`, footer | Contact block is commented out |
 | 4 | Postal address, if one should be shown (Wix placeholder was 500 Terry Francine St. San Francisco, CA 94158) | `index.html`, footer | Contact block is commented out |
