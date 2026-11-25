@@ -331,7 +331,6 @@ h3 {
 .about-top {
   display: grid;
   gap: 1.5rem;
-  margin-bottom: 1.5rem;
 }
 
 .about-portrait {
@@ -624,7 +623,7 @@ h3 {
 
   .about-top {
     grid-template-columns: minmax(0, 21.5rem) 1fr;
-    align-items: center;
+    align-items: end;
   }
 
   .about-portrait {
