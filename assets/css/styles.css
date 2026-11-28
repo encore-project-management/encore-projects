@@ -577,6 +577,10 @@ h3 {
 }
 
 .footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.25rem 1.5rem;
   padding-block: 1.5rem;
   border-top: 1px solid var(--navy);
   font-size: 1rem;
@@ -648,9 +652,5 @@ h3 {
     grid-template-columns: 1fr auto auto;
     gap: 4rem;
     align-items: start;
-  }
-
-  .footer-bottom {
-    text-align: right;
   }
 }
