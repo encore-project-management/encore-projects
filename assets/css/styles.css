@@ -331,12 +331,15 @@ h3 {
 .about-top {
   display: grid;
   gap: 1.5rem;
-  margin-bottom: 1.5rem;
 }
 
-.about-art {
+.about-portrait {
   width: min(70%, 21.5rem);
   margin-inline: auto;
+  mask-image:
+    linear-gradient(to right, transparent, #000 12%, #000 88%, transparent),
+    linear-gradient(to bottom, transparent, #000 9%, #000 86%, transparent);
+  mask-composite: intersect;
 }
 
 /* ---------- How I Can Help ---------- */
@@ -574,6 +577,10 @@ h3 {
 }
 
 .footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.25rem 1.5rem;
   padding-block: 1.5rem;
   border-top: 1px solid var(--navy);
   font-size: 1rem;
@@ -620,10 +627,10 @@ h3 {
 
   .about-top {
     grid-template-columns: minmax(0, 21.5rem) 1fr;
-    align-items: center;
+    align-items: end;
   }
 
-  .about-art {
+  .about-portrait {
     width: 100%;
   }
 
@@ -645,9 +652,5 @@ h3 {
     grid-template-columns: 1fr auto auto;
     gap: 4rem;
     align-items: start;
-  }
-
-  .footer-bottom {
-    text-align: right;
   }
 }
